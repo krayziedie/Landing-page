@@ -1,0 +1,261 @@
+[class*='btn-'] {
+	background-color: #1ed760;
+	border: none;
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 1.8rem;
+	font-weight: 700;
+	border-radius: 40px;
+	width: 268px;
+	height: 60px;
+}
+
+.btn-header {
+	background-image: linear-gradient(to right, hsl(198, 100%, 17%) 0%, hsl(141, 76%, 48%) 100%);
+}
+
+.btn-video {
+	/*opacity: 0.4;*/
+	position: relative;
+	border: 2px solid #1ed760;
+	background-color: hsla(0, 0%, 0%, 0.4);
+	/*background-color: rgba(0, 0, 0, 0.4);*/
+	top: 50%;
+}
+
+.btn-video:hover  {
+	background-color: #1ed760;
+}
+
+.btn-plan {
+	background-color: #0d668d;
+}
+
+.menu {
+	position: absolute;
+	text-align: center;
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	color: #FFF;
+}
+
+.menu-item {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.logo {
+	position: relative;
+	top: -14px;
+	display: inline-block;
+	background-image: url(../../images/preylogo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 123px;
+	height: 106px;
+	text-indent: -9999px;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+.header {
+	background-image: url(../../images/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 200px;
+	padding-bottom: 120px;
+}
+
+.header-subtitle {
+	color: #FFF;
+	padding-right: 300px;
+}
+/*+++++++++++++++++++++theft+++++++++++++++++++++++++++*/
+.theft {
+	background-color: #3eb8f7;
+	padding-top: 40px;
+}
+
+.theft p {
+	color: #FFF;
+}
+
+.theft-title {
+	color: #FFF;
+}
+
+.theft-video {
+	position: relative;
+	text-align: center;
+	background-image: url(../../images/ipad.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 100% auto;
+	height: 322px;
+}
+
+/*------------------------------------specs----------------------------------------------*/
+.specs{
+	background-color:f1f1f1 ;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+
+}
+.specs-title{
+	color: e2e3e3;
+	margin-bottom: 35px;
+}
+.icons-os{
+	margin-right:20px;
+	margin-left: 20px;
+}
+.specs-p{
+	color:879392;
+}
+.specs-list-item{
+	color :008ec8;
+	text-transform: uppercase;
+	text-align: left;
+}
+.specs-list{
+margin-top: 15px;
+margin-left: 10%;
+margin-right:10%;
+width: 100%;
+
+}
+
+[class*='icon-']/*esto es para todos lo que tengan "icon-" en su class  */{
+	margin-right: 10px;
+}
+
+/*------------------------------testimony-------------------------------------------------*/
+
+.testimony{
+	text-align: center;
+	background-color: 233041;
+	padding-top: 40px;
+	color : white;
+
+}
+
+.user-img{
+	width: 100px;
+	height: 100px;
+    overflow: hidden;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+ border-radius: 100px;
+}
+
+.testimony p{
+	font-family: 'Montserrat' ;
+}
+.testimony span img{
+	position: relative;
+}
+
+.arrows {
+	padding: 0;
+}
+
+.img-arrow-left{
+}
+.img-arrow-right{
+	transform: rotate(180deg);
+}
+
+.testimony-quote {
+	font-style: italic;
+}
+.testimony-quote:before {
+	content: '"';
+	font-family: cursive;
+	position: relative;
+	float: left;
+	font-size: 42px;
+	top: -20px;
+}
+
+
+/*------------------------------plans-------------------------------------------------*/
+
+.plans {
+	background-color: #f1f1f1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.plans .grid-container {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.plan {
+	background-color: #008dc8;
+	color: #FFF;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 0 0 40px;
+}
+
+.plan-featured {
+	background-color: #1ed760;
+	transform: scale(1.1);
+	box-shadow: 0 4px 15px rgba(0,0,0, 0.4);
+}
+
+.plan-header {
+	padding: 30px;
+	background-color: #0273A3;
+}
+
+.plan-header h3, .plan-header p {
+	margin-bottom: 0;
+}
+
+.plan-featured .plan-header {
+	background-color: #16C053;
+}
+
+.plan-details-title {
+	padding-top: 10px;
+	font-size: 2.8rem;
+}
+
+.plan-details-title span {
+	font-weight: 700;
+}
+
+.plan-list {
+	padding: 30px 40px;
+	text-align: left;
+}
+
+.plan-list-last {
+	padding-left: 60px;
+}
+
+.plan-list-item {
+	font-size: 1.4rem;
+	margin-bottom: 10px;
+}
+
+.plan-list-item.uncheck {
+	opacity: 0.8;
+}
+
+.plan-list-item span {
+	float: right;
+	text-align: center;
+	display: inline-block;
+	width: 40px;
+	font-size: 2.1rem;
+}
